@@ -34,7 +34,7 @@
         <header class="major">
             <h2>Hello there 👋</h2>
         </header>
-        <p>I'm a Full-Stack Web Developer with experience working with Javascript, Python, React, Redux, Flask,
+        <p style="color: black">I'm a Full-Stack Web Developer with experience working with Javascript, Python, React, Redux, Flask,
            Express, and PostgreSQL applications styled with visually appealing CSS.</p>
         <ul class="actions">
             <li><a href="Osvaldo's%20Template_Resume.pdf" class="button" target="_blank">Resume</a></li>
@@ -127,7 +127,7 @@
                 <p>React, Redux, Python, Flask, PostgreSQL, AWS</p>
                 <hr class="work-hr">
                 <a href="https://tweet-r.herokuapp.com/" class="button icon solid fa-rocket" target="_blank">Live
-                                                                                                                Site</a>
+                                                                                                             Site</a>
                 <a href="https://github.com/OsvaldoSalomon/capstone-project" class="button icon solid brands fa-github"
                    target="_blank">Github</a>
             </article>
@@ -142,7 +142,7 @@
                 <p>React, Redux, JavaScript, Sequelize, PostgreSQL</p>
                 <hr class="work-hr">
                 <a href="https://kuora-app.herokuapp.com/" class="button icon solid fa-rocket" target="_blank">Live
-                                                                                                                  Site</a>
+                                                                                                               Site</a>
                 <a href="https://github.com/OsvaldoSalomon/kuora-solo-app" class="button icon solid brands fa-github"
                    target="_blank">Github</a>
             </article>
@@ -157,7 +157,7 @@
                 <p>JavaScript, Sequelize, Pug, CSS, PostgreSQL</p>
                 <hr class="work-hr">
                 <a href="https://filmdium.herokuapp.com/" class="button icon solid fa-rocket" target="_blank">Live
-                                                                                                               Site</a>
+                                                                                                              Site</a>
                 <a href="https://github.com/OsvaldoSalomon/filmdium" class="button icon solid brands fa-github"
                    target="_blank">Github</a>
             </article>
@@ -170,41 +170,39 @@
     <!-- Three -->
     <section id="three">
         <h2>Get In Touch</h2>
-        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu
-           lorem
-           semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
         <div class="row">
             <div class="col-8 col-12-small">
-                <form method="post" action="#">
-                    <div class="row gtr-uniform gtr-50">
-                        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
-                                                                placeholder="Name" />
+                <form method="POST" action="https://formspree.io/f/xnqwegvq" id='my-form'>
+                    <div class="row gtr-uniform gtr-50" style="margin-bottom: 45px;">
+                        <div class="col-6 col-12-xsmall">
+                            <input type="text" name="name" id="name" placeholder="Name" />
                         </div>
-                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email"
-                                                                placeholder="Email" /></div>
-                        <div class="col-12"><textarea name="message" id="message" placeholder="Message"
-                                                      rows="4"></textarea></div>
+                        <div class="col-6 col-12-xsmall">
+                            <input type="email" name="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="col-12">
+                            <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                        </div>
                     </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
                 </form>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message" /></li>
-                </ul>
             </div>
             <div class="col-4 col-12-small">
                 <ul class="labeled-icons">
                     <li>
                         <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-                        1234 Somewhere Rd.<br />
-                        Nashville, TN 00000<br />
+                        Atlanta, GA<br />
                         United States
                     </li>
                     <li>
                         <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-                        000-000-0000
+                        <a href="tel: 415-301-8303">404-429-4388</a>
                     </li>
                     <li>
                         <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-                        <a href="#">hello@untitled.tld</a>
+                        <a href="mailto: osvaldosalomonv@gmail.com">osvaldosalomonv@gmail.com</a>
                     </li>
                 </ul>
             </div>
@@ -216,9 +214,11 @@
 <footer id="footer">
     <div class="inner">
         <ul class="icons">
-            <li><a href="https://github.com/OsvaldoSalomon" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a href="https://www.linkedin.com/in/osvaldo-salomon-vazquez-0bb163230/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            <li><a href="https://github.com/OsvaldoSalomon" target="_blank" class="icon brands fa-github"><span
+                    class="label">Github</span></a></li>
+            <li><a href="https://www.linkedin.com/in/osvaldo-salomon-vazquez-0bb163230/" target="_blank"
+                   class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="#three" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
         </ul>
     </div>
 </footer>

@@ -77,6 +77,18 @@ input, select, textarea {
 div.skill {
     /* border: 1px solid; */
     width: 129px;
+    color: black;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.skill:hover {
+    /* border: 1px solid; */
+    width: 129px;
+    color: #0e4fe2;
     height: 105px;
     display: flex;
     flex-direction: column;
@@ -127,13 +139,13 @@ a {
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
-    color: #49bf9d;
+    color: #0e4fe2;
     text-decoration: none;
 }
 
 a:hover {
     border-bottom-color: transparent;
-    color: #49bf9d !important;
+    color: #0e4fe2 !important;
     text-decoration: none;
 }
 
@@ -2460,9 +2472,9 @@ input[type="button"],
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     background-color: transparent;
-    border-radius: 0.35em;
-    border: solid 3px #efefef;
-    color: #787878 !important;
+    border-radius: 2em;
+    border: solid 3px #323840;
+    color: #323840 !important;
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
@@ -2480,17 +2492,18 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-    border-color: #49bf9d;
-    color: #49bf9d !important;
+    border-color: rgb(5, 75, 233);
+    background-color: rgb(5, 75, 233);
+    color: #ffffff !important;
 }
 
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-    background-color: rgba(73, 191, 157, 0.1);
-    border-color: #49bf9d;
-    color: #49bf9d !important;
+    background-color: rgba(5, 75, 233, 0.77);
+    border-color: #054be9;
+    color: #054be9 !important;
 }
 
 input[type="submit"].icon,
@@ -2610,6 +2623,7 @@ input[type="button"]:disabled,
     background-color: #1f1815;
     background-attachment: scroll, scroll;
     background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+    /*background-image: url("https://images.unsplash.com/photo-1534162052945-dbc6dac1a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=952&q=80"), url("../../images/bg.jpg");*/
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
@@ -2656,7 +2670,7 @@ input[type="button"]:disabled,
 
 #header .image.avatar {
     margin: 0 0 1em 0;
-    width: 6.25em;
+    width: 10em;
 }
 
 /* Footer */
@@ -2666,7 +2680,7 @@ input[type="button"]:disabled,
 }
 
 #footer .icons a {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgb(207, 207, 207);
 }
 
 #footer .copyright {
