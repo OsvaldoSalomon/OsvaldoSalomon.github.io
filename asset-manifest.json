@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d69a640f.css",
-    "main.js": "/static/js/main.8a333450.js",
+    "main.js": "/static/js/main.230b9d85.js",
     "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
     "static/media/heirbnb.png": "/static/media/heirbnb.c529fd3e1d90e7a17bf4.png",
     "static/media/tweetr.png": "/static/media/tweetr.a25b0f07ae72fa8f7df9.png",
@@ -10,14 +10,14 @@
     "static/media/fireChat.png": "/static/media/fireChat.6a92f3be62cb7e8a4c26.png",
     "static/media/profilePic.jpg": "/static/media/profilePic.dd7860281d5fd8c595b7.jpg",
     "static/media/reactColors.png": "/static/media/reactColors.7e9cd04341ab4e03d433.png",
-    "static/media/Osvaldo_Salomon_2023.pdf": "/static/media/Osvaldo_Salomon_2023.0a729b43df277f3be95d.pdf",
+    "static/media/Osvaldo_SE_Resume.pdf": "/static/media/Osvaldo_SE_Resume.9dfa204836e6374deb18.pdf",
     "index.html": "/index.html",
     "main.d69a640f.css.map": "/static/css/main.d69a640f.css.map",
-    "main.8a333450.js.map": "/static/js/main.8a333450.js.map",
+    "main.230b9d85.js.map": "/static/js/main.230b9d85.js.map",
     "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d69a640f.css",
-    "static/js/main.8a333450.js"
+    "static/js/main.230b9d85.js"
   ]
 }
