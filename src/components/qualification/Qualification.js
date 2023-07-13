@@ -19,7 +19,7 @@ const Qualification = () => {
                 </div>
 
                 <div className="qualification__sections">
-                    <div className="qualification__content">
+                    <div className="qualification__content qualification__content-active">
 
                         <div className="qualification__data">
                             <div>
@@ -46,9 +46,9 @@ const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification__title">Software Developer Intern</h3>
-                                <span className="qualification__subtitle">Not Another Dating App</span>
+                                <span className="qualification__subtitle">NADA (Not Another Dating App)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> Feb 2022 - Sep 2022
+                                    <i className="uil uil-calendar-alt"></i> March 2023 - Present
                                 </div>
                             </div>
                         </div>
