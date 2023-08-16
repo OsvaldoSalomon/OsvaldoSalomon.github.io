@@ -48,7 +48,24 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Software Developer Intern</h3>
                                 <span className="qualification__subtitle">NADA (Not Another Dating App)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> March 2023 - Present
+                                    <i className="uil uil-calendar-alt"></i> March 2023 - August 2023
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Technology Apprentice</h3>
+                                <span className="qualification__subtitle">Accenture</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> August 2023 - Present
                                 </div>
                             </div>
                         </div>
