@@ -84,7 +84,7 @@
 }
 
 .home__scroll {
-    margin-left: 9.75rem;
+    margin: auto;
 }
 
 .wheel {
@@ -145,7 +145,7 @@
     }
 
     .home__scroll {
-        margin-left: 7.5rem;
+        margin: auto;
     }
 }
 
