@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d805c881.css",
-    "main.js": "/static/js/main.56d28e11.js",
+    "main.css": "/static/css/main.609eb680.css",
+    "main.js": "/static/js/main.d96396fc.js",
     "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
     "static/media/heirbnb.png": "/static/media/heirbnb.c529fd3e1d90e7a17bf4.png",
     "static/media/tweetr.png": "/static/media/tweetr.a25b0f07ae72fa8f7df9.png",
     "static/media/kuora.png": "/static/media/kuora.15a06500c3dfc2d1a183.png",
     "static/media/filmdium.png": "/static/media/filmdium.3b8637e866d28e1e632b.png",
+    "static/media/profilePicture.png": "/static/media/profilePicture.55146d94939f85e3acdd.png",
     "static/media/fireChat.png": "/static/media/fireChat.6a92f3be62cb7e8a4c26.png",
-    "static/media/profilePic.jpg": "/static/media/profilePic.dd7860281d5fd8c595b7.jpg",
     "static/media/reactColors.png": "/static/media/reactColors.7e9cd04341ab4e03d433.png",
-    "static/media/Osvaldo_SE_Resume.pdf": "/static/media/Osvaldo_SE_Resume.9dfa204836e6374deb18.pdf",
+    "static/media/OsvaldoSalomonResumeFeb2025.pdf": "/static/media/OsvaldoSalomonResumeFeb2025.12983db6087d75c0fa85.pdf",
     "index.html": "/index.html",
-    "main.d805c881.css.map": "/static/css/main.d805c881.css.map",
-    "main.56d28e11.js.map": "/static/js/main.56d28e11.js.map",
+    "main.609eb680.css.map": "/static/css/main.609eb680.css.map",
+    "main.d96396fc.js.map": "/static/js/main.d96396fc.js.map",
     "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d805c881.css",
-    "static/js/main.56d28e11.js"
+    "static/css/main.609eb680.css",
+    "static/js/main.d96396fc.js"
   ]
 }
